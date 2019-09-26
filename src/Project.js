@@ -13,19 +13,19 @@ class Project extends React.Component {
   componentDidMount() {
     switch(this.props.language) {
       case 'Swift':
-        this.setState({image: 'iphone.png'})
+        this.setState({image: 'img/iphone.png'})
         break;
       case 'JavaScript':
-        this.setState({image: 'js.png'})
+        this.setState({image: 'img/js.png'})
         break;
       case 'Python':
-        this.setState({image: 'python.png'})
+        this.setState({image: 'img/python.png'})
         break;
       case 'Kotlin':
-        this.setState({image: 'android.png'})
+        this.setState({image: 'img/android.png'})
         break;
         case 'C++':
-          this.setState({image: 'c++.png'})
+          this.setState({image: 'img/c++.png'})
           break;
       default:
         // code block
