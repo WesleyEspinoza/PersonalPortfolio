@@ -1,5 +1,6 @@
 {
   "name": "first_ever_react_app",
+  "homepage": "https://WesleyEspinoza.github.io/PersonalPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,8 +10,7 @@
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
-    "semantic-ui-react": "^0.88.0",
-    "homepage": "https://WesleyEspinoza.github.io/PersonalPortfolio"
+    "semantic-ui-react": "^0.88.0"
   },
   "scripts": {
     "start": "react-scripts start",
