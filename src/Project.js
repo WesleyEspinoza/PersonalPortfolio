@@ -6,26 +6,26 @@ class Project extends React.Component {
   constructor() {
     super()
     this.state = {
-      image: '/python.png'
+      image: 'python.png'
     }
   }
 
   componentDidMount() {
     switch(this.props.language) {
       case 'Swift':
-        this.setState({image: `${process.env.PUBLIC_URL}${"iphone.png"}`})
+        this.setState({image: 'iphone.png'})
         break;
       case 'JavaScript':
-        this.setState({image: './js.png'})
+        this.setState({image: 'js.png'})
         break;
       case 'Python':
-        this.setState({image: './python.png'})
+        this.setState({image: 'python.png'})
         break;
       case 'Kotlin':
-        this.setState({image: './android.png'})
+        this.setState({image: 'android.png'})
         break;
         case 'C++':
-          this.setState({image: './c++.png'})
+          this.setState({image: 'c++.png'})
           break;
       default:
         // code block
@@ -37,7 +37,9 @@ class Project extends React.Component {
       <div className='p'>
         <div className='card'>
         <h1>{this.props.title}</h1>
-        <h2>{<img src={this.state.image} />}</h2>
+        <h2>
+          <img src={`${process.env.PUBLIC_URL}${this.state.image}`} />
+        </h2>
         <a href={this.props.link}>Link to project</a>
         </div>
   
