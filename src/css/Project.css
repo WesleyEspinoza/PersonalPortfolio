@@ -1,0 +1,28 @@
+.card {
+  display:block;
+  margin:auto;
+  color: black;
+  width: 350px;
+  height: auto;
+  padding: 2%;
+  color: rgb(15, 4, 54);
+  background-color:#6bc5d2;
+  box-shadow: 0 10px rgba(49, 49, 49, 0.253);
+  -webkit-transition: width 1s; /* Safari prior 6.1 */
+  transition: width 1s;
+  text-align: center;
+  cursor: pointer;
+}
+.card:hover{
+  box-shadow: 0 15px rgba(49, 49, 49, 0.253);
+  background-color:#b5525c;
+  width: 475px;
+
+}
+
+
+.p { 
+  margin: auto; /* Important */ 
+  text-align: center; 
+  perspective: 600px;
+}
