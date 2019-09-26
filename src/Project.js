@@ -38,7 +38,7 @@ class Project extends React.Component {
         <div className='card'>
         <h1>{this.props.title}</h1>
         <h2>
-          <img src={`${process.env.PUBLIC_URL}${this.state.image}`} />
+          <img src={`${process.env.PUBLIC_URL}${this.state.image}`} alt=''/>
         </h2>
         <a href={this.props.link}>Link to project</a>
         </div>
